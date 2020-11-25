@@ -15,7 +15,7 @@ public class Ejemplo01 {
         int contador = 1;
         do{
             System.out.printf("%d\n", contador);
-            contador = contador + 1;
+            contador = contador + 2;
         }while(contador <= 10);
     }
     

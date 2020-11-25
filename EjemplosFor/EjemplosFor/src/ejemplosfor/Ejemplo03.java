@@ -16,10 +16,12 @@ public class Ejemplo03 {
      */
     public static void main(String[] args) {
         
-        for (int i = 1; i <= 10; i += 2) {
-            System.out.printf("%d\n", i);
+        int sumaAcumulacion = 0;
+        for (int i = 10; i <= 20; i += 2) {
+            sumaAcumulacion = sumaAcumulacion + i;
+            //System.out.printf("%d\n", i);
         }
-        
+        System.out.printf("%d\n", sumaAcumulacion);
     }
     
 }
